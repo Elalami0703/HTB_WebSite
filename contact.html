@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normalize -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Hotel BT | Welcome</title>
+  </head>
+  <body>
+    <nav>
+      <div class="container">
+        <div class="logo"><a href="index.html">HBT</a></div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" target="_blank">About</a></li>
+          <li><a href="#" target="_blank" class="active">Contact</a></li>
+        </ul>
+        <i class="fas fa-bars fa-2x"></i>
+      </div>
+    </nav>
+
+    <!-- Start Form -->
+    <div class="container">
+      <div class="contact">
+        <h2><span>Contact</span> Us</h2>
+        <p>Please fill out the form below to contact us</p>
+        <form action="#">
+          <div>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" />
+          </div>
+          <div>
+            <label for="message">Message</label>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <button type="submit" class="black-btn">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- End Form -->
+
+    <!-- Start Section -->
+    <section class="services contact-s">
+      <div class="item">
+        <i class="fas fa-location-arrow fa-2x"></i>
+        <h2>Location</h2>
+        <p>50 Main st, Boston MA</p>
+      </div>
+      <div class="item">
+        <i class="fas fa-phone fa-2x"></i>
+        <h2>Phone Number</h2>
+        <p>(617) 555-5555</p>
+      </div>
+      <div class="item">
+        <i class="fas fa-at fa-2x"></i>
+        <h2>Email Address</h2>
+        <p>frontdesk@hotelbt.co</p>
+      </div>
+    </section>
+    <!-- End Section -->
+
+    <footer>Hotel BT &copy; 2021, All RIghts Reserved</footer>
+  </body>
+</html>
